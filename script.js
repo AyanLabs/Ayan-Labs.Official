@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             setTimeout(() => {
                 // Construct Mailto Link
-                const subject = `Contact from ${name} (Ayan Labs Website)`;
+                const subject = `Contact from ${name} (Blue Pomegranate Website)`;
                 const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
                 window.location.href = `mailto:ayanlabs.official@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
 
@@ -97,5 +97,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    console.log("Ayan Labs UX Loaded.");
+    console.log("Blue Pomegranate UX Loaded.");
 });
